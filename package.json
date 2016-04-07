@@ -1,0 +1,15 @@
+{
+  "name": "gbitmap-lib",
+  "author": "Gregoire Sage",
+  "version": "2.1.0",
+  "files": ["dist.zip"],
+  "keywords": ["pebble-package"],
+  "dependencies": {},
+  "pebble": {
+    "sdkVersion": "3",
+    "targetPlatforms": [
+      "aplite",
+      "basalt"
+    ]
+  }
+}
