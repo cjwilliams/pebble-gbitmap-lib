@@ -1,0 +1,30 @@
+{
+  "name": "morphing",
+  "author": "Gregoire Sage",
+  "version": "1.0.0",
+  "dependencies": {
+    "gbitmap-lib": "2.1.0"
+  },
+
+  "pebble": {
+    "uuid": "e88e73ed-f149-4a7a-a470-f7620b0cfa15",
+    "targetPlatforms": ["aplite", "basalt"],
+    "watchapp": {
+      "watchface": false
+    },
+    "resources": {
+      "media": [
+        {
+          "type": "png",
+          "name": "IMAGE_START",
+          "file": "images/start.png"
+        },
+        {
+          "type": "png",
+          "name": "IMAGE_END",
+          "file": "images/end.png"
+        }
+      ]
+    }
+  }
+}

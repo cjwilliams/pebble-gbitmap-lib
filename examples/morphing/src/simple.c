@@ -1,6 +1,5 @@
 #include <pebble.h>
-
-#include "gbitmap_tools.h"
+#include "gbitmap-lib/gbitmap_tools.h"
 
 #define NUMBER_OF_IMAGES_IN_ANIMATION 10
 

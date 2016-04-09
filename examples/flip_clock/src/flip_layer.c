@@ -1,7 +1,7 @@
 #include <pebble.h>
 
 #include "flip_layer.h"
-#include "gbitmap_tools.h"
+#include "gbitmap-lib/gbitmap_tools.h"
 
 static void layer_update_callback(Layer *me, GContext* ctx) {
 	FlipLayer* flip_layer = *(FlipLayer**)(layer_get_data(me));

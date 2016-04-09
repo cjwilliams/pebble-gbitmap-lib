@@ -1,5 +1,5 @@
 #include "pebble.h"
-#include "gbitmap_tools.h"
+#include "gbitmap-lib/gbitmap_tools.h"
 
 static Window *window = NULL;
 static Layer *layer    = NULL;
